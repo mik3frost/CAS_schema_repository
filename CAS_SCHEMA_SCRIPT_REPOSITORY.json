@@ -1,0 +1,12 @@
+{
+  "version": "1.0.0",
+  "description": "Schema for the CAS Script Repository",
+  "structure": {
+    "SCHEMA_VERSION_ID": "STRING",
+    "SCRIPT_TITLE": "STRING",
+    "CORE_TONE": "ENUM (Cynically Supportive)",
+    "SCRIPT_WPM_RATE": "FLOAT",
+    "SCRIPT_SEGMENTS": "ARRAY of OBJECTS",
+    "FINAL_VERDICT": "STRING"
+  }
+}
